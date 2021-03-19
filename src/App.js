@@ -1,11 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {BrowserRouter as Router, Router} from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
-      <h2>Salaam</h2>
-    </div>
+    <Router>
+      <Route path="/" exact>
+        <Showcase />
+      </Route>
+
+      <Route path="projects">
+        <Projects />
+      </Route>
+
+      <Route>
+        <Hire path="/hire" />
+      </Route>
+
+    </Router>
   );
 }
 

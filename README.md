@@ -12,3 +12,11 @@
 1. Removing unnecessary files
 2. Cleanup
 3. Craco configuration
+
+### Components
+
+1. App component
+
+### Routing
+
+1. Enclosing App component with BrowserRouter from react-router-dom
